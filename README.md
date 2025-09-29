@@ -92,6 +92,8 @@ ADHDや自己管理に悩む人が集まるオンラインコミュニティや�
   - ユーザー同士の「いいね／スタンプ」機能
   - SNSシェア機能
   - 匿名モード
+  - リマインダー（LINE）
+  - OpenAI APIとの連携によるテンプレート
 
 ---
 
@@ -104,4 +106,8 @@ ADHDや自己管理に悩む人が集まるオンラインコミュニティや�
   - Kaminari（ページネーション）
   - Simple Calendar（カレンダー表示）
   - Chartkick または Groupdate（グラフ表示）
-
+  
+  **リマインダー関連**
+- バックグラウンドジョブ:Redis + Sidekiq（Gem）
+- LINE Login / Messaging API
+- whenever などスケジューリングGem
